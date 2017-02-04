@@ -25,7 +25,7 @@
     var descriptor = {
         blocks: [
             // Block type, block name, function name
-            ['Diolouge ', 'HelloWorld', 'HelloWorld'],
+            ['', 'HelloWorld', 'HelloWorld'],
         ]
     };
 
