@@ -30,5 +30,5 @@
     };
 
     // Register the extension
-    ScratchExtensions.register('Ben', descriptor, ext);
+    ScratchExtensions.register('HelloWorld diologue', descriptor, ext);
 })({});
