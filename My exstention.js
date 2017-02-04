@@ -7,17 +7,25 @@
     ext._getStatus = function() {
         return {status: 2, msg: 'Ready'};
     };
+    
+    ext._getStatus = function() {
+        return {status: 0, msg: 'Not ready'};
+    };
+    
+    ext._getStatus = function() {
+        return {status: 1, msg: 'Not quite ready'};
+    };
 
-    ext.my_first_block = function() {
+    ext.HelloWorld = function() {
         // Code that gets executed when the block is run
-        alert("hello");
+        alert("HelloWorld");
     };
 
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
             // Block type, block name, function name
-            [' ', 'my blox', 'my blox'],
+            ['Diolouge ', 'HelloWorld', 'HelloWorld'],
         ]
     };
 
